@@ -3,12 +3,12 @@ python:
     - "2.7"
 
 install:
-    - python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
+    - pip install -U platformio
 
 script:
-    - platformio ci janitoo/ --board=megaatmega1280
-    - platformio ci janitoo/ --board=uno
-    - platformio ci janitoo/ --board=due
-    - platformio ci janitoo/ --board=teensy31
-    - platformio ci janitoo/ --board=esp01
-    - platformio ci janitoo/ --board=esp01
+    - platformio ci janitoo/ --lib=libraries --board=megaatmega1280
+    - platformio ci janitoo/ --lib=libraries --board=uno
+    - platformio ci janitoo/ --lib=libraries --board=due
+    - platformio ci janitoo/ --lib=libraries --board=teensy31
+    - platformio ci janitoo/ --lib=libraries --board=esp01
+    - platformio ci janitoo/ --lib=libraries --board=esp01
