@@ -6,9 +6,9 @@ install:
     - pip install -U platformio
 
 script:
-    - platformio ci janitoo/ --lib="libraries/ArduinoJson/" --lib="libraries/DHTlib/" --lib="libraries/Entropy/" --lib="libraries/PubSubClient/" --lib="libraries/Time/" --lib="libraries/TimeAlarms/" --board=megaatmega1280
-    - platformio ci janitoo/ --lib="libraries/ArduinoJson/" --lib="libraries/DHTlib/" --lib="libraries/Entropy/" --lib="libraries/PubSubClient/" --lib="libraries/Time/" --lib="libraries/TimeAlarms/" --board=uno
-    - platformio ci janitoo/ --lib="libraries/ArduinoJson/" --lib="libraries/DHTlib/" --lib="libraries/Entropy/" --lib="libraries/PubSubClient/" --lib="libraries/Time/" --lib="libraries/TimeAlarms/" --board=due
-    - platformio ci janitoo/ --lib="libraries/ArduinoJson/" --lib="libraries/DHTlib/" --lib="libraries/Entropy/" --lib="libraries/PubSubClient/" --lib="libraries/Time/" --lib="libraries/TimeAlarms/" --board=teensy31
-    - platformio ci janitoo/ --lib="libraries/ArduinoJson/" --lib="libraries/DHTlib/" --lib="libraries/Entropy/" --lib="libraries/PubSubClient/" --lib="libraries/Time/" --lib="libraries/TimeAlarms/" --board=esp01
-    - platformio ci janitoo/ --lib="libraries/ArduinoJson/" --lib="libraries/DHTlib/" --lib="libraries/Entropy/" --lib="libraries/PubSubClient/" --lib="libraries/Time/" --lib="libraries/TimeAlarms/" --board=esp01
+    - platformio ci janitoo/ --lib=libraries --board=megaatmega1280
+    - platformio ci janitoo/ --lib=libraries --board=uno
+    - platformio ci janitoo/ --lib=libraries --board=due
+    - platformio ci janitoo/ --lib=libraries --board=teensy31
+    - platformio ci janitoo/ --lib=libraries --board=esp01
+    - platformio ci janitoo/ --lib=libraries --board=esp01
