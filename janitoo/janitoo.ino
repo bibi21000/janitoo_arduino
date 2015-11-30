@@ -23,10 +23,10 @@ Change uint8_t to uint16_t len for length
   - subscribes to the topic "inTopic"
 */
 
-#include "janitoo.h";
-#include "eeprom.h";
-#include "memory.h";
-#include "mqtt.h";
+#include "janitoo.h"
+#include "eeprom.h"
+#include "memory.h"
+#include "mqtt.h"
 #include <SPI.h>
 #include <Ethernet.h>
 #include <PubSubClient.h>
