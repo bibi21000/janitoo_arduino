@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="7" errors="0" failures="0" skip="0"><testcase classname="test_arduino_rgb.TestArduinoRGB" name="test_001_heartbeat_hadds" time="19.941"><system-out><![CDATA[Waiting for 1111/0000
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 1111/0 = ONLINE
+]]></system-out></testcase><testcase classname="test_arduino_rgb.TestArduinoRGB" name="test_005_heartbeat_delay_hadds" time="137.163"><system-out><![CDATA[Waiting for 1111/0000
+HADD : 18/1 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 124/4 = ONLINE
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 1111/0 = ONLINE
+Waiting for 1111/0000 : heartbeat
+Subscribe to /values/system/1111/0000/#
+Received message {u'uuid': u'heartbeat', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 4, u'data': 15, u'is_writeonly': False}
+Waiting for 1111/0000
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 1111/0 = ONLINE
+Waiting for 1111/0000 : heartbeat
+Subscribe to /values/system/1111/0000/#
+Received message {u'uuid': u'heartbeat', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 4, u'data': 60, u'is_writeonly': False}
+Waiting for 1111/0000
+HADD : 124/4 = ONLINE
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 1111/0 = ONLINE
+]]></system-out></testcase><testcase classname="test_arduino_rgb.TestArduinoRGB" name="test_051_config_timeout" time="62.212"><system-out><![CDATA[Waiting for 1111/0000
+HADD : 124/4 = ONLINE
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 1111/0 = ONLINE
+Waiting for 1111/0000 : config_timeout
+Subscribe to /values/system/1111/0000/#
+HADD : 124/4 = ONLINE
+Received message {u'uuid': u'config_timeout', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 4, u'data': 15, u'is_writeonly': False}
+Waiting for 1111/0000 : config_timeout
+Subscribe to /values/system/1111/0000/#
+Received message {u'uuid': u'config_timeout', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 4, u'data': 5, u'is_writeonly': False}
+HADD : 48/4 = ONLINE
+]]></system-out></testcase><testcase classname="test_arduino_rgb.TestArduinoRGB" name="test_061_name" time="58.964"><system-out><![CDATA[Waiting for 1111/0000
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 1111/0 = ONLINE
+Waiting for 1111/0000 : name
+Subscribe to /values/config/1111/0000/#
+HADD : 124/4 = ONLINE
+Received message {u'uuid': u'name', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': u'testname', u'is_writeonly': False}
+]]></system-out></testcase><testcase classname="test_arduino_rgb.TestArduinoRGB" name="test_071_location" time="60.031"><system-out><![CDATA[Waiting for 1111/0000
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 1111/0 = ONLINE
+Waiting for 1111/0000 : location
+Subscribe to /values/config/1111/0000/#
+HADD : 124/4 = ONLINE
+Received message {u'uuid': u'location', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': u'testlocation', u'is_writeonly': False}
+]]></system-out></testcase><testcase classname="test_arduino_rgb.TestArduinoRGB" name="test_101_arduino_rgb_dht1_poll" time="249.343"><system-out><![CDATA[Waiting for 1111/0000
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 1111/0 = ONLINE
+Waiting for 1111/0000 : dht_in_enabled
+Subscribe to /values/config/1111/0000/#
+HADD : 124/4 = ONLINE
+Received message {u'uuid': u'dht_in_enabled', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': True, u'is_writeonly': False}
+Waiting for 1111/0000 : dht_in_poll
+Subscribe to /values/config/1111/0000/#
+Received message {u'uuid': u'dht_in_poll', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': 15, u'is_writeonly': False}
+HADD : 48/4 = ONLINE
+Waiting for 1111/0000 : dht_in_temp
+Subscribe to /values/user/1111/0000/#
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'dht_in_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'in temperature', u'units': u'\xb0C', u'genre': 2, u'data': 25.0, u'is_writeonly': True}
+Waiting for 1111/0000 : dht_in_poll
+Subscribe to /values/config/1111/0000/#
+HADD : 1115/0 = ONLINE
+Received message {u'uuid': u'dht_in_poll', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': 0, u'is_writeonly': False}
+Waiting for 1111/0000 : dht_in_temp
+Subscribe to /values/user/1111/0000/#
+HADD : 14/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+Received message {u'index': 0, u'uuid': u'dht_out_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out temperature', u'units': u'\xb0C', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'dht_out_hum', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out humidity', u'units': u'%', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1111/0 = ONLINE
+HADD : 124/4 = ONLINE
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+Waiting for 1111/0000 : dht_in_enabled
+Subscribe to /values/config/1111/0000/#
+Received message {u'uuid': u'dht_in_enabled', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': False, u'is_writeonly': False}
+Waiting for 1111/0000 : dht_in_poll
+Subscribe to /values/config/1111/0000/#
+Received message {u'uuid': u'dht_in_poll', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': 15, u'is_writeonly': False}
+Waiting for 1111/0000 : dht_in_temp
+Subscribe to /values/user/1111/0000/#
+Received message {u'index': 0, u'uuid': u'dht_out_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out temperature', u'units': u'\xb0C', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'dht_out_hum', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out humidity', u'units': u'%', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+Received message {u'index': 0, u'uuid': u'dht_out_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out temperature', u'units': u'\xb0C', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'dht_out_hum', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out humidity', u'units': u'%', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1111/0 = ONLINE
+HADD : 124/4 = ONLINE
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+Waiting for 1111/0000 : dht_in_enabled
+Subscribe to /values/config/1111/0000/#
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+Received message {u'uuid': u'dht_in_enabled', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': True, u'is_writeonly': False}
+Waiting for 1111/0000 : dht_in_poll
+Subscribe to /values/config/1111/0000/#
+Received message {u'uuid': u'dht_in_poll', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': 60, u'is_writeonly': False}
+Waiting for 1111/0000 : dht_in_temp
+Subscribe to /values/user/1111/0000/#
+Received message {u'index': 0, u'uuid': u'dht_out_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out temperature', u'units': u'\xb0C', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'dht_out_hum', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out humidity', u'units': u'%', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+Received message {u'index': 0, u'uuid': u'dht_out_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out temperature', u'units': u'\xb0C', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'dht_out_hum', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'out humidity', u'units': u'%', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 1111/0 = ONLINE
+HADD : 124/4 = ONLINE
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 48/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 18/0 = ONLINE
+HADD : 124/0 = ONLINE
+Received message {u'index': 0, u'uuid': u'dht_in_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'in temperature', u'units': u'\xb0C', u'genre': 2, u'data': 25.0, u'is_writeonly': True}
+]]></system-out></testcase><testcase classname="test_arduino_rgb.TestArduinoRGB" name="test_101_arduino_rgb_dht1_request" time="63.115"><system-out><![CDATA[Waiting for 1111/0000
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 14/6 = ONLINE
+HADD : 14/7 = ONLINE
+HADD : 14/16 = ONLINE
+HADD : 14/11 = ONLINE
+HADD : 14/4 = ONLINE
+HADD : 14/5 = ONLINE
+HADD : 14/3 = ONLINE
+HADD : 14/10 = ONLINE
+HADD : 14/20 = ONLINE
+HADD : 14/8 = ONLINE
+HADD : 14/18 = ONLINE
+HADD : 14/17 = ONLINE
+HADD : 14/21 = ONLINE
+HADD : 14/14 = ONLINE
+HADD : 14/1 = ONLINE
+HADD : 14/19 = ONLINE
+HADD : 14/9 = ONLINE
+HADD : 14/13 = ONLINE
+HADD : 14/12 = ONLINE
+HADD : 14/15 = ONLINE
+HADD : 14/2 = ONLINE
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 18/0 = ONLINE
+HADD : 138/0 = ONLINE
+HADD : 18/1 = ONLINE
+HADD : 1115/0 = ONLINE
+HADD : 14/0 = ONLINE
+HADD : 1111/0 = ONLINE
+Waiting for 1111/0000 : dht_in_enabled
+Subscribe to /values/config/1111/0000/#
+Received message {u'uuid': u'dht_in_enabled', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': True, u'is_writeonly': False}
+HADD : 124/4 = ONLINE
+Waiting for 1111/0000 : dht_in_temp
+Subscribe to /values/user/1111/0000/#
+Received message {u'index': 0, u'uuid': u'dht_in_temp', u'is_readonly': True, u'cmd_class': 50, u'hadd': u'1111/0000', u'label': u'in temperature', u'units': u'\xb0C', u'genre': 2, u'data': 0.0, u'is_writeonly': True}
+Waiting for 1111/0000 : dht_in_enabled
+Subscribe to /values/config/1111/0000/#
+HADD : 48/4 = ONLINE
+HADD : 48/5 = ONLINE
+Received message {u'uuid': u'dht_in_enabled', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': False, u'is_writeonly': False}
+HADD : 48/1 = ONLINE
+HADD : 48/0 = ONLINE
+HADD : 124/2 = ONLINE
+HADD : 48/3 = ONLINE
+HADD : 48/2 = ONLINE
+Waiting for 1111/0000 : dht_in_temp
+Subscribe to /values/user/1111/0000/#
+HADD : 123/0 = ONLINE
+HADD : 124/1 = ONLINE
+HADD : 124/3 = ONLINE
+Received message {u'index': 0, u'uuid': u'rgb_color', u'is_readonly': True, u'cmd_class': 51, u'hadd': u'1111/0000', u'label': u'rgb color', u'units': u'R#G#B', u'genre': 2, u'poll_delay': 30, u'is_polled': True, u'data': u'0#0#0', u'is_writeonly': False}
+HADD : 124/0 = ONLINE
+HADD : 18/0 = ONLINE
+Waiting for 1111/0000 : dht_in_enabled
+Subscribe to /values/config/1111/0000/#
+Received message {u'uuid': u'dht_in_enabled', u'is_readonly': True, u'cmd_class': 112, u'hadd': u'1111/0000', u'reply_hadd': u'9999/0000', u'genre': 3, u'data': True, u'is_writeonly': False}
+]]></system-out></testcase></testsuite>
